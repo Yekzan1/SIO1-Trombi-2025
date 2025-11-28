@@ -1,33 +1,22 @@
-/* Cadre Serkan style Initial D */
 #COBAN {
-    position: relative;
-    background: url("JDM-bg.jpg") center/cover no-repeat;
+    background: #111;
+    border: 2px solid #ff1e1e;
     border-radius: 12px;
-    border: 2px solid #ff1a1a;
-    box-shadow:
-        0 0 10px #ff1a1a,
-        0 0 20px #ff1a1a,
-        inset 0 0 20px rgba(255, 0, 0, 0.4);
-    transition: 0.25s ease;
-    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 30, 30, 0.7);
+    transition: 0.2s;
 }
 
-/* Néon animé au survol */
 #COBAN:hover {
-    transform: scale(1.06);
-    box-shadow:
-        0 0 15px #ff1a1a,
-        0 0 30px #ff1a1a,
-        0 0 45px #ff1a1a,
-        inset 0 0 30px rgba(255, 0, 0, 0.5);
+    transform: scale(1.07);
+    box-shadow: 0 0 35px rgba(255, 30, 30, 1);
 }
 
-/* Image dans le cadre */
-#COBAN img {
-    border-radius: 8px;
-    border: 2px solid rgba(255, 0, 0, 0.8);
-    box-shadow: 0 0 12px #ff1a1a;
+#COBAN p {
+    color: #ff1e1e;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
 }
+
 
 /* Texte */
 #COBAN p {
